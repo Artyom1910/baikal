@@ -1,0 +1,32 @@
+{
+  "name": "gulp-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artyom1910/baikal.git"
+  },
+  "author": "Artiom Kupits",
+  "license": "ISC",
+  "homepage": "https://Artyom1910.github.io/baikal/",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.5.1",
+    "magnific-popup": "^1.1.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
